@@ -401,7 +401,7 @@ function ProjectCard({
           {/* Project Image */}
 <div className="relative h-full w-full overflow-hidden">
   <Image
-    src={project.image}
+    src={project.image!}
     alt={`${project.title} project preview`}
     fill
     className="object-cover transition-transform duration-500 group-hover:scale-105"
